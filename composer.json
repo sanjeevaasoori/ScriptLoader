@@ -1,0 +1,23 @@
+{
+    "name": "sanjeevaasoori/script-loader",
+    "description": "This is a simple javascript loader with additions properties, See example for more details",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sanjeev\\Custom\\": "src/"
+        }
+    },
+    "version":"1.0",
+    "authors": [
+        {
+            "name": "sanjeevaasoori",
+            "email": "sanjeev.a.rangaswamy@gmail.com"
+        }
+    ],
+    "require": {
+        "anshu-krishna/data-validator": "^1.2",
+        "php": ">=8.0.0",
+        "sanjeevaasoori/error-reporting": "^1.0"
+    }
+}
