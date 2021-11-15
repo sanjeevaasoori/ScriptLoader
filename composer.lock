@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69f436b52fea6dd94f8fb85258eb1c08",
+    "content-hash": "aaa39956409042f87011d26b38fbcaf9",
     "packages": [
         {
             "name": "anshu-krishna/data-validator",
@@ -48,16 +48,16 @@
         },
         {
             "name": "sanjeevaasoori/error-reporting",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanjeevaasoori/ErrorReporting.git",
-                "reference": "7e3eb467b3701f1583676ba8010fc5e4fb365b61"
+                "reference": "0d74c404d9a571cd3b886d96daa592752c8cefb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanjeevaasoori/ErrorReporting/zipball/7e3eb467b3701f1583676ba8010fc5e4fb365b61",
-                "reference": "7e3eb467b3701f1583676ba8010fc5e4fb365b61",
+                "url": "https://api.github.com/repos/sanjeevaasoori/ErrorReporting/zipball/0d74c404d9a571cd3b886d96daa592752c8cefb4",
+                "reference": "0d74c404d9a571cd3b886d96daa592752c8cefb4",
                 "shasum": ""
             },
             "require": {
@@ -82,9 +82,50 @@
             "description": "A simple PHP error reporting class",
             "support": {
                 "issues": "https://github.com/sanjeevaasoori/ErrorReporting/issues",
-                "source": "https://github.com/sanjeevaasoori/ErrorReporting/tree/1.0"
+                "source": "https://github.com/sanjeevaasoori/ErrorReporting/tree/1.1"
             },
-            "time": "2021-11-09T09:46:36+00:00"
+            "time": "2021-11-15T11:27:38+00:00"
+        },
+        {
+            "name": "sanjeevaasoori/script-minifier",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sanjeevaasoori/ScriptMinifier.git",
+                "reference": "7a89ca1a62673f37acb6ec92cfc5970ea07cc741"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sanjeevaasoori/ScriptMinifier/zipball/7a89ca1a62673f37acb6ec92cfc5970ea07cc741",
+                "reference": "7a89ca1a62673f37acb6ec92cfc5970ea07cc741",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0",
+                "sanjeevaasoori/error-reporting": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sanjeev\\Custom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sanjeevaasoori",
+                    "email": "sanjeev.a.rangaswamy@gmail.com"
+                }
+            ],
+            "description": "PHP library to minify Javascripts",
+            "support": {
+                "issues": "https://github.com/sanjeevaasoori/ScriptMinifier/issues",
+                "source": "https://github.com/sanjeevaasoori/ScriptMinifier/tree/1.2"
+            },
+            "time": "2021-11-15T11:15:43+00:00"
         }
     ],
     "packages-dev": [],

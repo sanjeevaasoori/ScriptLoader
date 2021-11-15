@@ -60,7 +60,7 @@ class ScriptLoader
             static::echo_error(static::$error);
         }
         if ($dirPath !== null) {
-            static::$dirPath = $dirPath;
+            static::$dirPath = $nameSpace;
         }
 
         if ($nameSpace !== null) {
@@ -121,7 +121,8 @@ class ScriptLoader
     protected static function render()
     {
         header("Content-type: application/javascript");
-        echo static::$scriptData;
+        $min = new ScriptMinifier();
+        echo $min->minify(source: static::$scriptData);
         exit;
     }
 }

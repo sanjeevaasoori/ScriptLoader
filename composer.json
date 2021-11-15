@@ -16,8 +16,9 @@
         }
     ],
     "require": {
-        "anshu-krishna/data-validator": "^1.2",
+        "anshu-krishna/data-validator": "1.2",
         "php": ">=8.0.0",
-        "sanjeevaasoori/error-reporting": "^1.0"
+        "sanjeevaasoori/error-reporting": "*",
+        "sanjeevaasoori/script-minifier": "*"
     }
 }
